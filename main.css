@@ -1,0 +1,68 @@
+
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+
+/*================================
+
+Universal Styling
+
+*================================*/
+
+#container {
+	display: flex;
+}
+
+@font-face {
+  font-family: 'The Amazing Spider-Man';
+  src: url('fonts/THE AMAZING SPIDER-MAN.ttf') format('truetype');
+	font-family: 'Spider-Man';
+  src: url('fonts/Spider-Man.ttf') format('truetype');
+}
+
+/*=====================================
+
+Header Styling
+
+*======================================*/
+
+/*------Media Queries-----------*/
+
+/*--------------------Start of 320px Media Query------------------*/
+@media screen and (max-width: 400px) {
+
+}
+/*--------------------End of 320px Media Query------------------*/
+
+@media screen and (max-width: 700px) {
+
+
+}
+
+
+
+/*--------------------Start of 825px Media Query------------------*/
+
+@media (min-width: 700px) {
+
+
+
+}
+
+/*--------------------End of 825px Media Query------------------*/
+
+/*--------------------Start of 1000px Media Query------------------*/
+@media (min-width: 1000px) {
+
+}
+
+  /* --------Desktop Body Styles----------- */
